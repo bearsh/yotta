@@ -16,6 +16,7 @@ install:
   - chmod +x /tmp/install-cmake.sh
   - sudo /tmp/install-cmake.sh --prefix=/usr/local --exclude-subdir
   - pip install .
+  - pip install mercurial==2.6.2
   # install Ninja
   - sudo apt-get install ninja-build
 before_script:
